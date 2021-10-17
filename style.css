@@ -1,0 +1,23 @@
+ul li {
+  cursor: pointer;
+  /* make list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+    background: #ddd;
+  }
+
+/* When clicked on, strike out text */
+ul li.checked {
+  text-decoration: line-through;
+  }
+
+/*When you hover over the add button, it changes color */
+.addbutton:hover {
+    background-color: rgb(58, 12, 12);
+  }
